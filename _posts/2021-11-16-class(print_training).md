@@ -1,3 +1,12 @@
+---
+layout : single
+title : "파이썬 - print , input함수 연습"
+categories: Coding_Training
+tag : Python
+author_profile: false
+sidebar:
+    nav: "docs"
+---
 # <font color='red'> 실습 </font> 
 ## <font color='red'> PRINT AND USER INPUT OPERATION </font> 
 
