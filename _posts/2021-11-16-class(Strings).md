@@ -1,3 +1,13 @@
+---
+layout : single
+title : "파이썬 - 문자열"
+categories: Coding_Class
+tag : Python
+author_profile: false
+sidebar:
+    nav: "docs"
+---
+
 # PYTHON PROGRAMMING 기초
 
 # STRINGS - 문자열
