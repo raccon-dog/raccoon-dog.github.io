@@ -1,7 +1,7 @@
 ---
 layout : single
-title : "파이썬 300제 101-110"
-categories: Coding_Training
+title : "파이썬 - 함수"
+categories: Coding_Class
 tag : Python
 author_profile: false
 sidebar:
