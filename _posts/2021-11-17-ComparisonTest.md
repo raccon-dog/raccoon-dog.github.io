@@ -1,3 +1,12 @@
+---
+layout : single
+title : "파이썬 - 조건문 실습"
+categories: Coding_Training
+tag : Python
+author_profile: false
+sidebar:
+    nav: "docs"
+---
 # <font color='red'> *실습* </font> 
 # <font color='red'> Comparison and logical operators and if Statements </font> 
 
@@ -65,8 +74,7 @@ else:
 
 ### 만약 유저가 1보다 작은 값을 입력하면, "1보다 큰 수를 입력하세요"를 출력합니다.
 
-![%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-07-13%2017.45.40.png](attachment:%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-07-13%2017.45.40.png)
-
+![img](/assets/images/Comparison/6.png)
 
 ```python
 wind = int(input())
