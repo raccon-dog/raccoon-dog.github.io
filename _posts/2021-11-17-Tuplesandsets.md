@@ -1,3 +1,12 @@
+---
+layout : single
+title : "파이썬 - 자료형구조(튜플) "
+categories: Coding_Class
+tag : Python
+author_profile: false
+sidebar:
+    nav: "docs"
+---
 # PYTHON PROGRAMMING FUNDAMENTALS
 # TUPLES AND SETS
 
