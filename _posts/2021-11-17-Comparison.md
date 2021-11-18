@@ -1,3 +1,12 @@
+---
+layout : single
+title : "파이썬 - 조건문과 논리연산자 "
+categories: Coding_Class
+tag : Python
+author_profile: false
+sidebar:
+    nav: "docs"
+---
 # PYTHON PROGRAMMING FUNDAMENTALS
 
 
