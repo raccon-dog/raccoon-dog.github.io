@@ -1,3 +1,12 @@
+---
+layout : single
+title : "파이썬 300제 101-110"
+categories: Coding_Training
+tag : Python
+author_profile: false
+sidebar:
+    nav: "docs"
+---
 # PYTHON PROGRAMMING FUNDAMENTALS
 
 
@@ -20,7 +29,7 @@
 - ### 파라미터의 의미
 - ### 리턴이란?
 
-![python-function.svg](attachment:python-function.svg)
+![1](/assets/images/1.svg)
 
 
 ```python
@@ -81,7 +90,7 @@ result
 ## 함수의 실행 순서를 이해하자. 
 - ### CPU가 어떠한 실행 순서로 동작하는가?
 
-![how_does_python_function_work.jpg](attachment:how_does_python_function_work.jpg)
+![2](/assets/images/2.jpg)
 
 ## return 이 없는 경우
 
@@ -303,4 +312,4 @@ hello(age=25, name = "상식")
     안녕하세요 제 이름은 상식이고 나이는 25살입니다.
     
 
-![image.png](attachment:image.png)
+![last](/assets/images/last.png)
