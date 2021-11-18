@@ -555,12 +555,6 @@ my_dict
 sms = "최저 금리로 당일 송금, 대출 100만~3000만원 가능"
 ```
 
-
-```python
-sms = sms.strip(",")
-```
-
-
 ```python
 word = sms.split(" ")
 ```
