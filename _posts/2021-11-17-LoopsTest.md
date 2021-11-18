@@ -1,3 +1,12 @@
+---
+layout : single
+title : "파이썬 - 반복문 실습"
+categories: Coding_Training
+tag : Python
+author_profile: false
+sidebar:
+    nav: "docs"
+---
 # <font color='red'> *실습* </font> 
 # <font color='red'> Loops </font> 
 
@@ -350,8 +359,7 @@ min(new_score_list)
 # <font color='blue'> 단, 유저가 -1 을 입력하면, 프로그램을 종료합니다. -1 을 입력하기 전에는 계속 입력을 받습니다. 
 
 
-![%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-07-13%2021.51.27.png](attachment:%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-07-13%2021.51.27.png)
-
+![loop](/assets/images/loop1.png)
 
 ```python
 점수를 입력 : 80
