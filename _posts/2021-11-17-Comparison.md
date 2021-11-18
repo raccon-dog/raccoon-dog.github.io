@@ -28,8 +28,8 @@ password = input('비밀번호입력 :')
 
     비밀번호입력 :321321323232313
     
-![1](/assets/images/Comparison/1.png)
-![2](/assets/images/Comparison/2.png)
+![1](/assets/images/Comparison/1.PNG)
+![2](/assets/images/Comparison/2.PNG)
 
 ```python
 ret = data <= cnt % 2
