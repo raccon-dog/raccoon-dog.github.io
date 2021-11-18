@@ -1,3 +1,12 @@
+---
+layout : single
+title : "파이썬 - 딕셔너리 실습 "
+categories: Coding_Training
+tag : Python
+author_profile: false
+sidebar:
+    nav: "docs"
+---
 # <font color='red'> *실습* </font> 
 # <font color='red'> DICTIONARIES AND BOOLEANS </font> 
 
