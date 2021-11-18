@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "파이썬 - 리스트 실습 "
-categories: Coding_Class
+categories: Coding_Training
 tag : Python
 author_profile: false
 sidebar:
