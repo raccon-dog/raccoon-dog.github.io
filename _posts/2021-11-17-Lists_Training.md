@@ -1,3 +1,13 @@
+---
+layout : single
+title : "파이썬 - 리스트 실습 "
+categories: Coding_Class
+tag : Python
+author_profile: false
+sidebar:
+    nav: "docs"
+---
+
 # <font color='red'> *실습* </font> 
 # <font color='red'> LISTS </font> 
 
