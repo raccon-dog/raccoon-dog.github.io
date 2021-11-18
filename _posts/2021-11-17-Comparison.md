@@ -28,8 +28,8 @@ password = input('비밀번호입력 :')
 
     비밀번호입력 :321321323232313
     
-![1](/assets/images/1.png)
-![2](/assets/images/2.png)
+![1](/assets/images/Comparison/1.png)
+![2](/assets/images/Comparison/2.png)
 
 ```python
 ret = data <= cnt % 2
@@ -50,7 +50,7 @@ ret
 # LOGICAL OPERATORS 
 
 ## 실제 and 연산을 위 4개 조건으로 실행 해봅니다. 
-![and](/assets/images/3.jpg)
+![and](/assets/images/Comparison/3.jpg)
 
 ```python
 False and False
@@ -100,7 +100,7 @@ False and True
 
 
 ## 실제 or 연산을 위 4개 조건으로 실행 해봅니다. 
-![or](/assets/images/4.jpg)
+![or](/assets/images/Comparison/4.jpg)
 
 ```python
 False or False
@@ -252,7 +252,7 @@ my_status
 
 
 ## CPU의 코드 실행 순서
-![cpu](/assets/images/5.png)
+![cpu](/assets/images/Comparison/5.png)
 ### 위의 식을 작성해봅시다.
 
 
