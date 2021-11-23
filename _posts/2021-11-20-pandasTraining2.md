@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "파이썬 - Pandas 실습 -1 "
+title : "파이썬 - Pandas 실습 -2 "
 categories: Coding_Training
 tag : [Python,Pandas]
 author_profile: false
