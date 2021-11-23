@@ -1,3 +1,12 @@
+---
+layout : single
+title : "파이썬 - Pandas 실습 -1 "
+categories: Coding_Training
+tag : [Python,Pandas]
+author_profile: false
+sidebar:
+    nav: "docs"
+---
 winemag-data.csv 파일을 reviews 로 읽는다.
 
 
