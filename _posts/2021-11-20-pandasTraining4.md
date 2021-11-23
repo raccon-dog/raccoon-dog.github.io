@@ -1,3 +1,12 @@
+---
+layout : single
+title : "파이썬 - Pandas 실습 - 4 "
+categories: Coding_Training
+tag : [Python,Pandas]
+author_profile: false
+sidebar:
+    nav: "docs"
+---
 # Statistics from Stock Data
 
 구글, 애플, 아마존의 주식을 분석할 것입니다. 구글은 GOOG.csv 애플은 AAPL.csv 아마존은 AMZN.csv 파일에 주식 정보가 있습니다.
