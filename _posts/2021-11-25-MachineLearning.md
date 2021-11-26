@@ -1,3 +1,14 @@
+---
+layout : single
+title : "파이썬 - MachineLearning"
+categories: Coding_Class
+tag : [Python,MachineLearning]
+author_profile: false
+toc : true
+toc_sticky: true
+sidebar:
+    nav: "docs"
+---
 # 머신러닝으로 할 수 있는 것
 
 - 편지봉투에 손으로 쓴 우편번호 숫자 자동 판별
@@ -17,13 +28,13 @@
 
 레퍼런스 : https://www.youtube.com/watch?v=KDrys0OnVho
 
-![%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-08-24%2016.34.46.png](attachment:%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-08-24%2016.34.46.png)
+![12](/images/MachineLearning/1.png)
 
 
 
 # 머신러닝 : Supervised , Unsupervised
 
-![image.png](attachment:image.png)
+![123](/images/MachineLearning/2.png)
 
 # Supervised Learning
 
@@ -58,7 +69,7 @@
 
 테스트란, 학습이 완료된 분류기에, 학습에 사용하지 않은 데이터를 넣어서, 정답을 맞추는지 확인하는 작업
 
-![%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-08-24%2017.06.12.png](attachment:%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-08-24%2017.06.12.png)
+![1243](/images/MachineLearning/3.png)
 
 ## Generalization (일반화)
 
@@ -72,12 +83,11 @@
 
 언더핏팅은, 그 반대다.
 
-![thumb-e45503217dbe2d2eef14efa1b80a650c_1536708647_92_600x171.png](attachment:thumb-e45503217dbe2d2eef14efa1b80a650c_1536708647_92_600x171.png)
+![13243](/images/MachineLearning/4.png)
 
 ## 성능 측정
 
-![%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-08-24%2022.09.48.png](attachment:%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-08-24%2022.09.48.png)
-
+![12443](/images/MachineLearning/5.png)
 # sklearn 설치
 
 아나콘다에 설치되어 있으며, 만약 설치가 안되었으면 다음으로 설치함
@@ -478,7 +488,7 @@ y = df['Purchased']
 
 숫자가 아닌 데이터 중에서, 카테고리로 판단되는 데이터는, 숫자로 바꿔줄 수 있다.
 
-![0_T5jaa2othYfXZX9W%20%281%29.jpeg](attachment:0_T5jaa2othYfXZX9W%20%281%29.jpeg)
+![1233443](/images/MachineLearning/6.jpg)
 
 
 ```python
@@ -817,15 +827,14 @@ Salary 는 40k ~ 90k
 # 따라서 값의 레인지를 맞춰줘야 정확히 트레이닝 된다.
 ```
 
-![%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-08-25%2002.13.23.png](attachment:%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-08-25%2002.13.23.png)
+![1233443](/images/MachineLearning/7.png)
 
 ##  Feature Scaling 2가지 방법
 
 - 표준화 : 평균을 기준으로 얼마나 떨어져 있느냐? 같은 기준으로 만드는 방법, 음수도 존재, 데이터의 최대최소값 모를때 사용.
 - 정규화 : 0 ~ 1 사이로 맞추는 것. 데이터의 위치 비교가 가능, 데이터의 최대최소값 알떄 사용
 
-![%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-08-25%2002.16.40.png](attachment:%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202019-08-25%2002.16.40.png)
-
+![124gg43](/images/MachineLearning/8.png)
 
 ```python
 from sklearn.preprocessing import StandardScaler,MinMaxScaler
