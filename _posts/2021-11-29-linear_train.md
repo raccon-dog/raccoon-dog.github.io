@@ -46,7 +46,9 @@ import pandas as pd
 ```python
 df = pd.read_csv('auto-mpg.csv')
 ```
-
+```python
+df
+```
 
 ```python
 df.drop('name',axis=1,inplace=True)
