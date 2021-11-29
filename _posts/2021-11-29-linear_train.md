@@ -1,3 +1,13 @@
+---
+layout : single
+title : "Linear_regression 실습"
+categories: Coding_Training
+tag : [Python,Pandas,Matplotlib]
+author_profile: false
+sidebar:
+    nav: "docs"
+---
+
 # 예측 모델 실습
 
 ## auto-mpg.csv 데이터를 통해,  mpg (mile per gallern, 자동차 연비)  를 예측하는 모델을 만드세요.
@@ -191,7 +201,7 @@ plt.show()
 
 
     
-![png](output_26_0.png)
+![12](/images/26.png)
     
 
 
