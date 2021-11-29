@@ -2,7 +2,7 @@
 layout : single
 title : "Linear_regression 실습"
 categories: Coding_Training
-tag : [Python,Pandas,Matplotlib]
+tag : [Python,MachineLearning]
 author_profile: false
 sidebar:
     nav: "docs"
