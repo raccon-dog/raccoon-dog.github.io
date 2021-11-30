@@ -252,7 +252,7 @@ plt.show()
 
 
     
-![12](/images/grie/1.png)
+![12](/images/grid/1.png)
     
 
 
@@ -349,7 +349,7 @@ plt.show()
 
 
     
-![12](/images/grie/2.png)
+![12](/images/grid/2.png)
     
 
 
@@ -367,7 +367,7 @@ plt.show()
 
 
     
-![12](/images/grie/3.png)
+![12](/images/grid/3.png)
 
 
 
@@ -390,7 +390,7 @@ plt.show()
 
 
     
-![12](/images/grie/4.png)
+![12](/images/grid/4.png)
     
 
 
