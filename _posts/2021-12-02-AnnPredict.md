@@ -409,7 +409,7 @@ sns.pairplot(car_df)
 
 
     
-![png](output_19_1.png)
+![png](/images/ANN/output_19_1.png)
     
 
 
@@ -1032,7 +1032,7 @@ plt.show()
 
 
     
-![png](output_61_0.png)
+![png](/images/ANN/output_61_0.png)
     
 
 
