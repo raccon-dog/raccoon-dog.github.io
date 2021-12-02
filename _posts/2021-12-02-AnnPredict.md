@@ -42,7 +42,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 
-### csv 파일을 읽기 위해, 구글 드라이브 마운트 하시오
+ csv 파일을 읽기 위해, 구글 드라이브 마운트 하시오
 
 
 ```python
@@ -53,7 +53,7 @@ drive.mount('/content/drive')
     Mounted at /content/drive
     
 
-### working directory 를, 현재의 파일이 속한 폴더로 셋팅하시오.
+ working directory 를, 현재의 파일이 속한 폴더로 셋팅하시오.
 
 
 ```python
@@ -63,18 +63,18 @@ os.chdir('/content/drive/MyDrive/python/day17')
 
 # STEP #1: IMPORT DATASET
 
-### Car_Purchasing_Data.csv 파일을 사용한다.  코랩의 경우 구글드라이브의 전체경로를 복사하여 파일 읽는다. 
+Car_Purchasing_Data.csv 파일을 사용한다.  코랩의 경우 구글드라이브의 전체경로를 복사하여 파일 읽는다. 
 
-### 인코딩은 다음처럼 한다. encoding='ISO-8859-1'
+인코딩은 다음처럼 한다. encoding='ISO-8859-1'
 
 
 ```python
 car_df = pd.read_csv('Car_Purchasing_Data.csv', encoding='ISO-8859-1')
 ```
 
-### 컬럼을 확인하고
+ 컬럼을 확인하고
 
-### 기본 통계 데이터를 확인해 보자
+기본 통계 데이터를 확인해 보자
 
 
 ```python
@@ -274,7 +274,7 @@ car_df.isna().sum()
 
 
 
-### 연봉이 가장 높은 사람은 누구인가
+ 연봉이 가장 높은 사람은 누구인가
 
 
 ```python
@@ -332,7 +332,7 @@ car_df[car_df['Annual Salary'] ==car_df['Annual Salary'].max()]
 
 
 
-### 나이가 가장 어린 고객은, 연봉이 얼마인가
+ 나이가 가장 어린 고객은, 연봉이 얼마인가
 
 
 ```python
@@ -392,7 +392,7 @@ car_df[car_df['Age'] == car_df['Age'].min()]
 
 # STEP #2: VISUALIZE DATASET
 
-### 상관관계를 분석하기 위해, pairplot 을 그려보자.
+ 상관관계를 분석하기 위해, pairplot 을 그려보자.
 
 
 ```python
@@ -513,7 +513,7 @@ car_df.corr()
 
 
 
-### NaN 값이 있으면, 이를 해결하시오.
+NaN 값이 있으면, 이를 해결하시오.
 
 
 ```python
@@ -536,7 +536,7 @@ car_df.isna().sum()
 
 
 
-### 학습을 위해 'Customer Name', 'Customer e-mail', 'Country', 'Car Purchase Amount' 컬럼을 제외한 컬럼만, X로 만드시오.
+학습을 위해 'Customer Name', 'Customer e-mail', 'Country', 'Car Purchase Amount' 컬럼을 제외한 컬럼만, X로 만드시오.
 
 
 ```python
@@ -776,14 +776,14 @@ X
 
 
 
-### y 값은 'Car Purchase Amount' 컬럼으로 셋팅하시오.
+ y 값은 'Car Purchase Amount' 컬럼으로 셋팅하시오.
 
 
 ```python
 y = car_df['Car Purchase Amount']
 ```
 
-### 피처 스케일링 하겠습니다. 정규화(normalization)를 사용합니다. MinMaxScaler 를 이용하시오.
+ 피처 스케일링 하겠습니다. 정규화(normalization)를 사용합니다. MinMaxScaler 를 이용하시오.
 
 
 ```python
@@ -818,7 +818,7 @@ X
 
 
 
-### 학습을 위해서, y 의 shape 을 변경하시오.
+ 학습을 위해서, y 의 shape 을 변경하시오.
 
 
 ```python
@@ -826,18 +826,9 @@ y = y.reshape(500,1)
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    AttributeError                            Traceback (most recent call last)
-
-    <ipython-input-110-5a2feb865cf1> in <module>()
-    ----> 1 y = y.to_frame()
-    
-
-    AttributeError: 'numpy.ndarray' object has no attribute 'to_frame'
 
 
-### y 도 피처 스케일링 하겠습니다. X 처럼 y도 노멀라이징 하시오.
+ y 도 피처 스케일링 하겠습니다. X 처럼 y도 노멀라이징 하시오.
 
 
 ```python
@@ -851,7 +842,7 @@ y = scaler_y.fit_transform(y)
 
 # STEP#4: TRAINING THE MODEL
 
-### 트레이닝셋과 테스트셋으로 분리하시오. (테스트 사이즈는 25%로 하며, 동일 결과를 위해 랜덤스테이트는 50 으로 셋팅하시오.)
+ 트레이닝셋과 테스트셋으로 분리하시오. (테스트 사이즈는 25%로 하며, 동일 결과를 위해 랜덤스테이트는 50 으로 셋팅하시오.)
 
 
 ```python
@@ -863,7 +854,7 @@ from sklearn.model_selection import train_test_split
 X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.25,random_state=50)
 ```
 
-### 아래 라이브러리를 임포트 하시오
+ 아래 라이브러리를 임포트 하시오
 
 
 ```python
@@ -873,7 +864,7 @@ from keras.layers import Dense
 from sklearn.preprocessing import MinMaxScaler
 ```
 
-### 딥러닝을 이용한 모델링을 하시오.
+ 딥러닝을 이용한 모델링을 하시오.
 
 
 ```python
@@ -925,14 +916,14 @@ model.summary()
     _________________________________________________________________
     
 
-### 옵티마이저는 'adam' 으로 하고, 로스펑션은 'mean_squared_error' 로 셋팅하여 컴파일 하시오
+옵티마이저는 'adam' 으로 하고, 로스펑션은 'mean_squared_error' 로 셋팅하여 컴파일 하시오
 
 
 ```python
 model.compile(optimizer='adam',loss='mean_squared_error')
 ```
 
-### 학습을 진행하시오.
+학습을 진행하시오.
 
 
 ```python
@@ -1020,7 +1011,7 @@ y_pred = model.predict(X_test)
 
 
 
-### 실제값과 예측값을 plot 으로 나타내시오.
+실제값과 예측값을 plot 으로 나타내시오.
 
 
 ```python
@@ -1036,9 +1027,9 @@ plt.show()
     
 
 
-### 새로운 고객 데이터가 있습니다. 이 사람은 차량을 얼마정도 구매 가능한지 예측하시오.
+ 새로운 고객 데이터가 있습니다. 이 사람은 차량을 얼마정도 구매 가능한지 예측하시오.
 
-### 여자이고, 나이는 38, 연봉은 90000,  카드빚은 2000, 순자산은 500000 일때, 어느정도의 차량을 구매할 수 있을지 예측하시오.
+여자이고, 나이는 38, 연봉은 90000,  카드빚은 2000, 순자산은 500000 일때, 어느정도의 차량을 구매할 수 있을지 예측하시오.
 
 
 ```python
